@@ -1,0 +1,626 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+
+  background-image: url("img/Backgroud.png");
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration:none;
+  padding: 17px;
+  color: rgb(137, 144, 151); /* Cinza */
+}
+
+.Centralizar {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#home-active a.active{
+color: rgb(111, 165, 247); /* Azul Claro */
+
+}
+
+a:hover{
+  color:#fff;
+}
+
+a:active{
+  color: none;
+}
+
+/* ################ BARRA DE MENU ######################*/
+
+.BarraMenu {
+  height: 100px;
+  width: 100%;
+
+}
+
+.Nav {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(111, 165, 247); /* Azul */
+  position: absolute;
+  left: 1108.031px;
+  top: 58px;
+}
+
+.Telefone {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(111, 165, 247); /* Azul */
+  text-transform: uppercase;
+  position: absolute;
+  left: 1664.281px;
+  top: 58px;
+}
+
+.Phone {
+  position: absolute;
+  left: 1639px;
+  top: 58px;
+  width: 10px;
+  height: 16px;
+}
+
+.Logo {
+  background-image: url("img/Logo.png");
+  position: absolute;
+  left: 404px;
+  top: 49px;
+  width: 183px;
+  height: 36px;
+}
+
+/* ################ CONTEÚDO ######################*/
+
+/* ############ TÍTILO E FORMULÁRIO*/
+
+.CentralizacaoVert{
+  margin-top: -135px;
+  position: absolute;
+}
+  
+/*### TEXTOS ------------*/
+
+.FontTituloFM {
+  font-size: 55px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 0.923;
+  position: absolute;
+  top: 280.441px;
+ 
+}
+
+.Texto {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(137, 144, 151); /* Cinza */
+  line-height: 1.625;
+  text-align: center;
+  position: absolute;
+  letter-spacing: 1px;
+  top: 350px;
+
+}
+
+.Mens_Obrigatoriedade {
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(93, 129, 182); /* Azul Opaco */
+  line-height: 1.733;
+  text-align: center;
+  position: absolute;
+  top: 435px;
+}
+
+/*### FORMULÁRIO -----------*/
+
+.Formulario_Posi {
+  position: absolute;
+  left: 738px;
+  top: 470px;
+}
+
+input[type=text]:focus {
+    outline:none;
+}
+
+textarea:focus {
+    outline:none;
+}
+
+/*#CAMPO NOME*/
+
+.Input_Nome {
+  position: absolute;
+  left: 840px;
+  top: 472px;
+}
+
+.Input_Nome input[type=text] {
+  border: none;
+  background: none;
+  width: 330px;
+  height: 40px;
+  font-size: 22px;
+  color: rgb(137, 144, 151);  /* Cinza */
+}
+
+/*#CAMPO TELEFONE*/
+
+.Input_Telefone {
+  position: absolute;
+  left: 1070px;
+  top: 522px;
+}
+
+.Input_Telefone input[type=text] {
+  border: none;
+  background: none;
+  width: 100px;
+  height: 40px;
+  font-size: 22px;
+  color: rgb(137, 144, 151);  /* Cinza */
+}
+
+/*#CAMPO E-MAIL*/
+
+.Input_Email {
+  position: absolute;
+  left: 838px;
+  top: 522px;
+}
+
+.Input_Email input[type=text] {
+  border: none;
+  background: none;
+  width: 113px;
+  height: 40px;
+  font-size: 22px;
+  color: rgb(137, 144, 151);  /* Cinza */
+}
+
+/*#CAMPO MENSSAGEM*/
+
+.Input_Menssagem {
+  position: absolute;
+  left: 865px;
+  top: 579px;
+}
+
+.Input_Menssagem textarea {
+  border: none;
+  background: none;
+  resize: none;
+  width: 305px;
+  height: 79px;
+  font-size: 16px;
+  color: rgb(137, 144, 151);  /* Cinza */
+}
+
+/*#BOTÃO ENVIAR*/
+
+.Btn_Enviar_Posi {
+  font-size: 15px;
+  font-family: "Source Sans Pro";
+  color: rgb(255, 255, 255); /* Branco */
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  border: none;
+  outline:none;
+  background-color: rgb(111, 165, 247); /* Azul Claro */
+  position: absolute;
+  left: 738px;
+  top: 668.5px;
+  width: 430px;
+  height: 53px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.Btn_Enviar_Posi:hover{
+  background-color: rgb(137, 144, 151); /* Cinza */
+}
+
+.Btn_Enviar_Posi:active{
+  background-color: rgb(111, 165, 247); /* Azul Claro */
+}
+
+/*### IMAGEM MACBOOK -----------*/
+
+.Img_Macbook {
+  position: absolute;
+  top: 717px;
+  z-index: 1;
+}
+
+/*### SEÇÃO DE TURNO -----------*/
+
+.Retangulo_Posi {
+  position: absolute;
+  left: 0px;
+  top: 1098px;
+  width: 1920px;
+  height: 312px;
+}
+
+.Conteudo_Posi_ST {
+  width: 278px;
+  height: 310px;
+  border: 0px solid red;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.FontTituloST {
+  font-size: 19px;
+  font-family: "Source Sans Pro";
+  color: rgb(111, 165, 247);
+}
+
+.FontTextoST {
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  color: rgb(126, 126, 126);
+}
+
+/*#GESTÃO MÉDICA*/
+
+.GMedica_Posi {
+  position: absolute;
+  left: 100px;
+  top: 1098px;
+}
+
+/*#MONITORAMENTO*/
+
+.Monitoriamento_Posi {
+  position: absolute;
+  left: 578px;
+  top: 1098px;
+}
+
+/*#INTEGRAÇÃO*/
+
+.Integracao_Posi {
+  position: absolute;
+  left: 1056px;
+  top: 1098px;
+}
+
+/*#USABILIDADE*/
+
+.Usabilidade_Posi {
+  position: absolute;
+  left: 1534px;
+  top: 1098px;
+}
+
+/* ############ SEÇÃO DIFERENCIAIS*/
+
+/*#TEXTOS*/
+
+.TextoSD_Posi {
+  position: absolute;
+  width: 550px;
+  height: 365px;
+  border: 0px solid red;
+  top: 1410px;
+}
+
+.FontTitulos {
+  font-size: 36px;
+  font-family: "Open Sans";
+  color: rgb(59, 64, 72);
+  text-align: center;
+  margin-top: 95px;
+}
+
+.FontTextoSD {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(85, 90, 105);
+  text-align: center;
+  margin-top: 55px;
+}
+
+/*#ARTIGOS*/
+
+.Artigos_Posi {
+  position: absolute;
+  width: 1140px;
+  height: 824px;
+  border: 0px solid red;
+  top: 1775px;
+  display: flex;
+}
+
+.FontTituloArt {
+  font-size: 36px;
+  font-family: "Open Sans";
+  color: rgb(245, 245, 245);
+}
+
+.FontTextoArt {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+}
+
+
+.Artigo1_Png {
+  width: 555px;
+  height: 452px;
+  border: 0px solid red;
+  background-image: url(img/Artigo1.png);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Artigo2_Png {
+  width: 555px;
+  height: 342px;
+  border: 0px solid red;
+  background-image: url(img/Artigo2.png);
+  position: absolute;
+  top: 482px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Artigo3_Png {
+  width: 555px;
+  height: 824px;
+  border: 0px solid red;
+  background-image: url(img/Artigo3.png);
+  position: absolute;
+  left: 585px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* ############ SEÇÃO SERVIÇOS*/
+
+.FontTituloSV {
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: rgb(111, 165, 247);
+  font-weight: bolder;
+}
+
+.FontTextoSV {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(126, 126, 126);
+  font-weight: bolder;
+}
+
+.Servicos_Posi{
+  width: 1140px;
+  height: 460px;
+  border: 0px solid red;
+  position: absolute;
+  top: 2600px;
+}
+
+/*#BOXES*/
+
+.BoxeServico_Posi {
+
+  width: 1140px;
+  height: 186px;
+  border: 0px solid red;
+  position: relative;
+  margin-top: 45px;
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+}
+
+.BoxeConteudo {
+  width: 360px;
+  height: 186px;
+  border: 0px solid red;
+  position: relative;
+  background-image: url(img/BoxeServico.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BoxeConteudo:hover {
+  background-image: url(img/BoxeServico2.png);
+  z-index: 1;
+  color: white;
+}
+
+/*#PAGINAÇÃO*/
+
+/*#ELIPESE*/
+
+.Paginacao_Posi {
+  width: 1140px;
+  height: 98px;
+  border: 0px solid red;
+  position: absolute;
+}
+
+.Paginacao_Posi2 {
+  width: 50px;
+  height: 98px;
+  border: 0px solid red;
+  position: absolute;
+}
+
+.Elipese_0 {
+  width: 10px;
+  height: 10px;
+  background-image: url(img/Ellipse1.png);
+  background-color: transparent;
+  position: absolute;
+  margin-top: 30px;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
+
+.Elipese_1 {
+  width: 10px;
+  height: 10px;
+  background-image: url(img/Ellipse2.png);
+  background-color: transparent;
+  position: absolute;
+  margin-top: 30px;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
+
+/*#FLECHA*/
+
+.FlechaRight_Posi {
+  width: 11px;
+  height: 17px;
+  background-image: url(img/Flecha3.png);
+  background-color: transparent;
+  top: 2870px;
+  left: 370px;
+  position: absolute;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
+
+.FlechaRight_Posi:hover {
+  background-image: url(img/Flecha4.png);
+}
+
+.FlechaLeft_Posi {
+  width: 11px;
+  height: 17px;
+  background-image: url(img/Flecha1.png);
+  background-color: transparent;
+  top: 2870px;
+  left: 1549px;
+  position: absolute;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
+
+.FlechaLeft_Posi:hover {
+  background-image: url(img/Flecha2.png);
+}
+
+
+
+/* ################ RODAPÉ ######################*/
+
+.Rodape_Posi {
+  background-image: url(img/Footer.png);
+  width: 100vw;
+  margin-left: 0px;
+  height: 151px;
+  border: 0px solid red;
+  position: absolute;
+  top: 3060px;
+}
+
+.Rodape_Posi2 {
+  width: 1140px;
+  height: 151px;
+  border: 0px solid red;
+  position: absolute;
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+}
+
+.FontRodape {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(121, 125, 140);
+  position: absolute;
+}
+
+.HoverLogo {
+  width: 16px;
+  height: 21px;
+  background-image: url(img/LogoCaju.png);
+  position: absolute;
+  border: 0px solid red;
+}
+
+.HoverLogo:hover {
+  background-image: url(img/logoCaju2.png);
+  z-index: 1;
+}
+
+.tooltip {
+  top: 15px;
+  left: 30px;
+  font-size: 12px;
+  font-family: "Open Sans";
+  visibility: hidden;
+  width: 278px;
+  background-color: white;
+  color: black;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.HoverLogo:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
